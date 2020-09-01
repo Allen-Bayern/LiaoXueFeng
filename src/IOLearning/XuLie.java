@@ -11,8 +11,7 @@ public class XuLie {
             // 写入int:
             output.writeInt(12345);
             // 写入String
-            output.writeUTF("Hello world");
-            // 写入对象
+            output.writeUTF("Hello world");        // 写入对象
             output.writeObject(Double.valueOf(123.567));
         }
         System.out.println(Arrays.toString(buffer.toByteArray()));
