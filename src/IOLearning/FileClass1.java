@@ -1,5 +1,5 @@
 package IOLearning;
-import java.io.*; // 涉及IO时引进这一条
+        import java.io.*; // 涉及IO时引进这一条
 
 public class FileClass1 {
     public static void main(String[] args) throws IOException{
